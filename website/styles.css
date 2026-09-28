@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(6, 38, 12);
+    color: rgb(255, 190, 190);
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: rgb(30, 59, 32);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #12430e;
+    color: rgb(255, 201, 201);
+}
+
+.topnav a.active {
+    background-color: rgb(255, 184, 184);
+    color: rgb(30, 59, 32);
+}
